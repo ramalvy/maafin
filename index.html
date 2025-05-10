@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>haii sayang</title>
+    <style>
+        body {
+            background-color: #fce4ec;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin-top: 10%;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 36px;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .gallery {
+         display: flex;
+         justify-content: center;
+         gap: 15px;
+        }
+
+.img-box {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: flex 0.5s ease;
+}
+
+.img-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+
+.img-box h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover {
+    flex: 3;
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+}
+        .btn {
+            background-color: #e91e63;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #d81b60;
+        }
+        .heart {
+            color: #e91e63;
+            font-size: 48px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>good night</h1>
+        <div class="gallery">
+            <div class="img-box">
+                <img src="tata1.jpg" alt="tata">
+        <p>hii kenalin ini cewe aku, eh maksudny tata, seorang perempuan yang sangat sangat cantik dan gemesinnn ngangenin,
+             aku sangat sayang dan bener bener sayang sama dia, gatau lagi klo gaada dia mau gimana lagi dia cewe yang aku
+             sayang dan aku bener bener sayang, sayang aku ke dia gapernah pudar sedikit pun hha, gatau kenapa tambah sayang
+             dan tambah sayang aku gatau, mungkin karena aku sayang sama kamu, jadiny bertambah terus, kamu jangan pernah
+             berubah yaa, berubah jadi sumalaa contohny, jangan yaaa aku takut,
+             aku mau kamu selamany pokokny selamany kamu gaboleh direbut orang lain kamu udah jadi milik akuu wleeeeee</p>
+        <div class="heart"></div>
+        <p> I LOVE YOUUU </p>
+        <button class="btn" onclick="alert('maaf yaa sayang, au ah maluuuuuu')">pencet aku</button>
+        </div>
+    </div>
+
+</body>
+</html>
